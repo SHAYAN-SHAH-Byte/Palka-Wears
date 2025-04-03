@@ -41,6 +41,11 @@ h1 {
     border-radius: 10px;
     min-width: 80px;
     flex: 1;
+    transition: transform 0.2s ease-in-out;
+}
+
+.time-box:hover {
+    transform: scale(1.05);
 }
 .time-box span {
     font-size: 2.3rem;
@@ -66,6 +71,15 @@ h1 {
     font-weight: bold;
     padding: 20px 0;
 }
+
+.description a {
+    color: #f93b3d;
+    text-decoration: none;
+}
+.description a:hover {
+    text-decoration: underline;
+}
+
 footer {
     color: #f93b3d;
     padding: 10px 0;
